@@ -243,7 +243,7 @@ img {
 }
 
 .button {
-  position: relative;
+  position: static;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -544,6 +544,9 @@ img {
   .about_skills-img_sql {
     width: 40px;
     transition: linear 0.4;
+  }
+  .button {
+    padding-inline: 10%;
   }
 }
 /*
