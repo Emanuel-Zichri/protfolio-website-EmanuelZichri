@@ -140,6 +140,15 @@ img {
     position: relative;
     width: 300px;
     bottom: 65%;
+    display: none;
+  }
+  .about_skills-img {
+    width: 40px;
+    transition: linear 0.4s;
+  }
+  .about_skills-img_sql {
+    width: 60px;
+    transition: linear 0.4;
   }
 
   /*.about__text {
@@ -304,7 +313,7 @@ img {
   border-radius: 0.5rem;
 }
 .about_skills-img_sql {
-  width: 100px;
+  width: 70px;
   transition: linear 0.4;
 }
 .about_skills-img_sql:hover {
@@ -527,6 +536,14 @@ img {
   }
   .button_cv:hover {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.15);
+  }
+  .about_skills-img {
+    width: 40px;
+    transition: linear 0.4s;
+  }
+  .about_skills-img_sql {
+    width: 40px;
+    transition: linear 0.4;
   }
 }
 /*
